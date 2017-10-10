@@ -5,27 +5,29 @@ import java.util.Random;
 
 public class Main {
 
-    private static final int MIN_CUST_AMOUNT = 1;
-    private static final int MAX_CUST_AMOUNT = 3;
-    private static final int MIN_CUST_ARRIVAL_TIME = 5;
-    private static final int MAX_CUST_ARRIVAL_TIME = 20;
-
     public static void main(String[] args) throws InterruptedException {
-        List<MyThread> customers = new ArrayList<>();
+        List<MyThread> currentPatients = new ArrayList<>();
         long openingTime = System.currentTimeMillis();
-
+        ThreadList patientController = new ThreadList();
+        patientController.start();
+        currentPatients.addAll(ThreadList.patients);
         while(System.currentTimeMillis()-openingTime < 120000){
-            //if(!customers.isEmpty()) Thread.sleep(MyThread.rand.nextInt(MAX_CUST_ARRIVAL_TIME - MIN_CUST_ARRIVAL_TIME + 1) + MIN_CUST_ARRIVAL_TIME);
-            int amountCustom = MyThread.rand.nextInt(MAX_CUST_AMOUNT - MIN_CUST_AMOUNT + 1) + MIN_CUST_AMOUNT;
-            System.out.println("Number of patients: " + amountCustom);
-            for(int i = 0; i < amountCustom; i++){
-                MyThread currCustomer = new MyThread();
+            if(currentPatients.size() < 3){
+                for(int i = 0; i < (3 - currentPatients.size()); i++){
+                    currentPatients.add(ThreadList.patients.get(0));
+                    ThreadList.patients.remove(0);
+                }
+            }
+            for(MyThread currCustomer : currentPatients){
                 currCustomer.start();
-                customers.add(currCustomer);
             }
-            for (MyThread currCustomer : customers){
+            for (MyThread currCustomer : currentPatients){
                 currCustomer.join();
+                ThreadList.patients.remove(currCustomer);
+                System.out.println("Removing currCustomer: " + currCustomer.getId());
             }
+            System.out.println("Size: " + currentPatients.size());
         }
+        patientController.join();
     }
 }
