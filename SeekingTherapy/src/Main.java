@@ -1,32 +1,26 @@
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Random;
-
 
 public class Main {
 
     public static void main(String[] args) throws InterruptedException {
-        List<MyThread> currentPatients = new ArrayList<>();
+        List<MyThread> tempPatients = new ArrayList<>();
         long openingTime = System.currentTimeMillis();
         ThreadList patientController = new ThreadList();
         patientController.start();
-        currentPatients.addAll(ThreadList.patients);
         while(System.currentTimeMillis()-openingTime < 120000){
-            if(currentPatients.size() < 3){
-                for(int i = 0; i < (3 - currentPatients.size()); i++){
-                    currentPatients.add(ThreadList.patients.get(0));
-                    ThreadList.patients.remove(0);
-                }
+            for(int i = 0; i < ThreadList.patients.size(); i++){
+                ThreadList.patients.get(i).start();
+                tempPatients.add(ThreadList.patients.get(i));
+                System.out.println("Starting thread");
+                System.out.println("Serving currCustomer: " + ThreadList.patients.get(i).getId());
             }
-            for(MyThread currCustomer : currentPatients){
-                currCustomer.start();
-            }
-            for (MyThread currCustomer : currentPatients){
+            for (MyThread currCustomer : ThreadList.patients){
                 currCustomer.join();
-                ThreadList.patients.remove(currCustomer);
                 System.out.println("Removing currCustomer: " + currCustomer.getId());
             }
-            System.out.println("Size: " + currentPatients.size());
+            ThreadList.patients.removeAll(tempPatients);
+            tempPatients.
         }
         patientController.join();
     }
