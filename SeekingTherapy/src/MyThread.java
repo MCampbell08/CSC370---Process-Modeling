@@ -10,7 +10,7 @@ public class MyThread extends Thread {
     private static final int MAX_CUST_TIME = 15000;
 
 
-    private long patientTimeStart = 0;
+    public static long patientTimeStart = 0;
 
     static Random rand = new Random();
 
