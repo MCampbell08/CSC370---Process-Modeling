@@ -1,7 +1,6 @@
 import java.util.Random;
 
-public class MyThread extends Thread {
-
+public class PatientThread extends Thread{
     public static int therapist;
 
     private static Object lock = new Object();
@@ -9,12 +8,11 @@ public class MyThread extends Thread {
     private static final int MIN_CUST_TIME = 5000;
     private static final int MAX_CUST_TIME = 15000;
 
-
     private long patientTimeStart = 0;
 
     static Random rand = new Random();
 
-    public MyThread(){
+    public PatientThread(){
         patientTimeStart = System.currentTimeMillis();
     }
 
@@ -28,11 +26,6 @@ public class MyThread extends Thread {
             therapist = local;
             System.out.println("Patient: " + this.getId() + " | Session time (millis): " + (pauseAmount));
         }
-        this.interrupt();
-    }
-
-    public long getPatientTimeStart() {
-        return patientTimeStart;
     }
 
     private void pause(long m){
