@@ -38,7 +38,7 @@ public class Main {
 
                 try {
                     int local = Main.x;
-                    pause(Main.gen.nextInt(500) + 250);
+                    pause(Main.gen.nextInt(5000) + 2500);
                     local++;
                     Main.x = local;
                 } finally {
