@@ -1,4 +1,5 @@
 import java.util.Random;
+import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.Semaphore;
@@ -15,7 +16,7 @@ public class Main {
 
     private static Semaphore semaphoreParking = new Semaphore(PARKING_SPOTS);
     private static Semaphore semaphoreEmployee = new Semaphore(EMPLOYEE_AMOUNT);
-    private static ScheduledExecutorService svc = Executors.newScheduledThreadPool(PARKING_SPOTS);
+    private static ExecutorService svc = Executors.newFixedThreadPool(PARKING_SPOTS);
 
     private static Object lock = new Object();
 
