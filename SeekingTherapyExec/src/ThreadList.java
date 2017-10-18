@@ -38,5 +38,6 @@ public class ThreadList extends Thread{
             }
             openingTime = false;
         }
+        if(closingTime){this.interrupt();}
     }
 }
