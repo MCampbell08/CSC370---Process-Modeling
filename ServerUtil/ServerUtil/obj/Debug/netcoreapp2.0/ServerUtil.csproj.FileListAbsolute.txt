@@ -1,0 +1,11 @@
+C:\NinthQuartCode\CSC370---Process-Modeling\ServerUtil\ServerUtil\bin\Debug\netcoreapp2.0\ServerUtil.deps.json
+C:\NinthQuartCode\CSC370---Process-Modeling\ServerUtil\ServerUtil\bin\Debug\netcoreapp2.0\ServerUtil.runtimeconfig.json
+C:\NinthQuartCode\CSC370---Process-Modeling\ServerUtil\ServerUtil\bin\Debug\netcoreapp2.0\ServerUtil.runtimeconfig.dev.json
+C:\NinthQuartCode\CSC370---Process-Modeling\ServerUtil\ServerUtil\bin\Debug\netcoreapp2.0\ServerUtil.dll
+C:\NinthQuartCode\CSC370---Process-Modeling\ServerUtil\ServerUtil\bin\Debug\netcoreapp2.0\ServerUtil.pdb
+C:\NinthQuartCode\CSC370---Process-Modeling\ServerUtil\ServerUtil\obj\Debug\netcoreapp2.0\ServerUtil.csprojResolveAssemblyReference.cache
+C:\NinthQuartCode\CSC370---Process-Modeling\ServerUtil\ServerUtil\obj\Debug\netcoreapp2.0\ServerUtil.csproj.CoreCompileInputs.cache
+C:\NinthQuartCode\CSC370---Process-Modeling\ServerUtil\ServerUtil\obj\Debug\netcoreapp2.0\ServerUtil.AssemblyInfoInputs.cache
+C:\NinthQuartCode\CSC370---Process-Modeling\ServerUtil\ServerUtil\obj\Debug\netcoreapp2.0\ServerUtil.AssemblyInfo.cs
+C:\NinthQuartCode\CSC370---Process-Modeling\ServerUtil\ServerUtil\obj\Debug\netcoreapp2.0\ServerUtil.dll
+C:\NinthQuartCode\CSC370---Process-Modeling\ServerUtil\ServerUtil\obj\Debug\netcoreapp2.0\ServerUtil.pdb

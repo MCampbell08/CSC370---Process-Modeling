@@ -1,0 +1,14 @@
+c:\users\kyle\source\repos\Queueing\Queueing\bin\Debug\Queueing.exe.config
+c:\users\kyle\source\repos\Queueing\Queueing\bin\Debug\Queueing.exe
+c:\users\kyle\source\repos\Queueing\Queueing\bin\Debug\Queueing.pdb
+c:\users\kyle\source\repos\Queueing\Queueing\obj\Debug\Queueing.csprojResolveAssemblyReference.cache
+c:\users\kyle\source\repos\Queueing\Queueing\obj\Debug\Queueing.csproj.CoreCompileInputs.cache
+c:\users\kyle\source\repos\Queueing\Queueing\obj\Debug\Queueing.exe
+c:\users\kyle\source\repos\Queueing\Queueing\obj\Debug\Queueing.pdb
+C:\NinthQuartCode\CSC370---Process-Modeling\Queueing\Queueing\bin\Debug\Queueing.exe.config
+C:\NinthQuartCode\CSC370---Process-Modeling\Queueing\Queueing\bin\Debug\Queueing.exe
+C:\NinthQuartCode\CSC370---Process-Modeling\Queueing\Queueing\bin\Debug\Queueing.pdb
+C:\NinthQuartCode\CSC370---Process-Modeling\Queueing\Queueing\obj\Debug\Queueing.csprojResolveAssemblyReference.cache
+C:\NinthQuartCode\CSC370---Process-Modeling\Queueing\Queueing\obj\Debug\Queueing.csproj.CoreCompileInputs.cache
+C:\NinthQuartCode\CSC370---Process-Modeling\Queueing\Queueing\obj\Debug\Queueing.exe
+C:\NinthQuartCode\CSC370---Process-Modeling\Queueing\Queueing\obj\Debug\Queueing.pdb
