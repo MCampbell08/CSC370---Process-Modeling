@@ -1,7 +1,0 @@
-c:\users\kyle\source\repos\Queueing\Queueing\bin\Debug\Queueing.exe.config
-c:\users\kyle\source\repos\Queueing\Queueing\bin\Debug\Queueing.exe
-c:\users\kyle\source\repos\Queueing\Queueing\bin\Debug\Queueing.pdb
-c:\users\kyle\source\repos\Queueing\Queueing\obj\Debug\Queueing.csprojResolveAssemblyReference.cache
-c:\users\kyle\source\repos\Queueing\Queueing\obj\Debug\Queueing.csproj.CoreCompileInputs.cache
-c:\users\kyle\source\repos\Queueing\Queueing\obj\Debug\Queueing.exe
-c:\users\kyle\source\repos\Queueing\Queueing\obj\Debug\Queueing.pdb

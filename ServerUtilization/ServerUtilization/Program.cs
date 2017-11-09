@@ -1,13 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Queueing
+namespace ServerUtilization
 {
     class Program
     {
-        static void Main(string[] args) => new Simulation().Run();
+        static void Main(string[] args)
+        {
+            new Server().Run();
+        }
     }
 }

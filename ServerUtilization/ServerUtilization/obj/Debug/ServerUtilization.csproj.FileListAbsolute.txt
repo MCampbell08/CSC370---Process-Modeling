@@ -1,7 +1,0 @@
-C:\NinthQuartCode\CSC370---Process-Modeling\ServerUtilization\ServerUtilization\bin\Debug\Queueing.exe.config
-C:\NinthQuartCode\CSC370---Process-Modeling\ServerUtilization\ServerUtilization\bin\Debug\Queueing.exe
-C:\NinthQuartCode\CSC370---Process-Modeling\ServerUtilization\ServerUtilization\bin\Debug\Queueing.pdb
-C:\NinthQuartCode\CSC370---Process-Modeling\ServerUtilization\ServerUtilization\obj\Debug\ServerUtilization.csprojResolveAssemblyReference.cache
-C:\NinthQuartCode\CSC370---Process-Modeling\ServerUtilization\ServerUtilization\obj\Debug\ServerUtilization.csproj.CoreCompileInputs.cache
-C:\NinthQuartCode\CSC370---Process-Modeling\ServerUtilization\ServerUtilization\obj\Debug\Queueing.exe
-C:\NinthQuartCode\CSC370---Process-Modeling\ServerUtilization\ServerUtilization\obj\Debug\Queueing.pdb
