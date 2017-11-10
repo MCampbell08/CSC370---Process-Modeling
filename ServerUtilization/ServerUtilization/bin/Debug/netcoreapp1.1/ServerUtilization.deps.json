@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v1.1": {
-      "serverutilization/1.0.0": {
+      "ServerUtilization/1.0.0": {
         "runtime": {
           "ServerUtilization.dll": {}
         }
@@ -14,7 +14,7 @@
     }
   },
   "libraries": {
-    "serverutilization/1.0.0": {
+    "ServerUtilization/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

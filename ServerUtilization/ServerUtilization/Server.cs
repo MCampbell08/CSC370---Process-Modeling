@@ -1,43 +1,61 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
-using System.Threading;
 
 namespace ServerUtilization
 {
     public class Server
     {
-        private List<double> waitTimeRecorded = new List<double>();
-        private const float ArrivalTime = 0.0020f, // 20 millis
-                            ProcessingTime = 0.0015f; // 15 millis
-        private const int AmountOfRequests = 1000;
+        private List<Request> RequestsVisiting = new List<Request>();
+        private const float ArrivalTime = 150f, // 20 millis
+                            ProcessingTime = 15f; // 15 millis
+        private const int AmountOfRequests = 10000;
 
         private static Random random = new Random();
 
-        public void Run()
+        private double simClock = 0.0;
+
+        private void CreateCustomers()
         {
+            double arrivalTimesTogether = 0.0;
             for (int i = 0; i < AmountOfRequests; i++)
             {
-                double waitTime = ((Ln(ArrivalTime) * i) + Ln(ProcessingTime));
-                waitTimeRecorded.Add(waitTime);
+                Request request = new Request
+                {
+                    ArrivalTime = (arrivalTimesTogether += Ln(ArrivalTime)),
+                    ServiceTime = Ln(ProcessingTime)
+                };
+                RequestsVisiting.Add(request);
+            }
+        }
 
-                Console.WriteLine("Processing Request | Time in: " + waitTime * 100);
-                Thread.Sleep((int)waitTime);
+        public void Run()
+        {
+            CreateCustomers();
+            for (int i = 0; i < RequestsVisiting.Count; i++)
+            {
+                Request req = RequestsVisiting[i];
+                if (simClock <= req.ArrivalTime)
+                {
+                    simClock = req.ArrivalTime + req.ServiceTime;
+                }
+                else
+                {
+                    req.WaitTime = simClock - req.ArrivalTime;
+                    simClock += req.ServiceTime;
+                }
             }
             double averageWaitTime = 0.0;
-
-            foreach (double time in waitTimeRecorded)
+            foreach(Request req in RequestsVisiting)
             {
-                averageWaitTime += time;
+                averageWaitTime += req.WaitTime;
             }
-            averageWaitTime /= waitTimeRecorded.Count;
-            averageWaitTime *= 100;
+            averageWaitTime /= AmountOfRequests;
             Console.WriteLine("Average Wait Time: " + averageWaitTime);
         }
         private double Ln(double ms)
         {
             double randDouble = random.NextDouble();
-            return (-Math.Log10(1 - randDouble) * ms);
+            return (-Math.Log(1 - randDouble) * ms);
         }
     }
 }

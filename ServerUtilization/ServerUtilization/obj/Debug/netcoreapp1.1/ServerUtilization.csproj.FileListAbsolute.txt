@@ -7,3 +7,5 @@ C:\NinthQuartCode\CSC370 - Process Modeling\ServerUtilization\ServerUtilization\
 C:\NinthQuartCode\CSC370 - Process Modeling\ServerUtilization\ServerUtilization\obj\Debug\netcoreapp1.1\ServerUtilization.AssemblyInfo.cs
 C:\NinthQuartCode\CSC370 - Process Modeling\ServerUtilization\ServerUtilization\obj\Debug\netcoreapp1.1\ServerUtilization.dll
 C:\NinthQuartCode\CSC370 - Process Modeling\ServerUtilization\ServerUtilization\obj\Debug\netcoreapp1.1\ServerUtilization.pdb
+C:\NinthQuartCode\CSC370 - Process Modeling\ServerUtilization\ServerUtilization\obj\Debug\netcoreapp1.1\ServerUtilization.csproj.CoreCompileInputs.cache
+C:\NinthQuartCode\CSC370 - Process Modeling\ServerUtilization\ServerUtilization\obj\Debug\netcoreapp1.1\ServerUtilization.AssemblyInfoInputs.cache

@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "targets": {
     ".NETCoreApp,Version=v1.1": {
       "Libuv/1.9.1": {
@@ -7041,19 +7041,37 @@
   },
   "project": {
     "version": "1.0.0",
+    "restoreSettings": {
+      "hideWarningsAndErrors": true
+    },
     "restore": {
       "projectUniqueName": "C:\\NinthQuartCode\\CSC370 - Process Modeling\\ServerUtilization\\ServerUtilization\\ServerUtilization.csproj",
       "projectName": "ServerUtilization",
       "projectPath": "C:\\NinthQuartCode\\CSC370 - Process Modeling\\ServerUtilization\\ServerUtilization\\ServerUtilization.csproj",
+      "packagesPath": "C:\\Users\\WaffleDefender\\.nuget\\packages\\",
       "outputPath": "C:\\NinthQuartCode\\CSC370 - Process Modeling\\ServerUtilization\\ServerUtilization\\obj\\",
       "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\WaffleDefender\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
       "originalTargetFrameworks": [
         "netcoreapp1.1"
       ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
       "frameworks": {
         "netcoreapp1.1": {
           "projectReferences": {}
         }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
       }
     },
     "frameworks": {
