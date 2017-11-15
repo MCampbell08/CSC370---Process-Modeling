@@ -7037,7 +7037,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\WaffleDefender\\.nuget\\packages\\": {}
+    "C:\\Users\\waffl\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -7045,14 +7045,14 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\NinthQuartCode\\CSC370 - Process Modeling\\ServerUtilization\\ServerUtilization\\ServerUtilization.csproj",
+      "projectUniqueName": "C:\\NinthQuartCode\\CSC370---Process-Modeling\\ServerUtilization\\ServerUtilization\\ServerUtilization.csproj",
       "projectName": "ServerUtilization",
-      "projectPath": "C:\\NinthQuartCode\\CSC370 - Process Modeling\\ServerUtilization\\ServerUtilization\\ServerUtilization.csproj",
-      "packagesPath": "C:\\Users\\WaffleDefender\\.nuget\\packages\\",
-      "outputPath": "C:\\NinthQuartCode\\CSC370 - Process Modeling\\ServerUtilization\\ServerUtilization\\obj\\",
+      "projectPath": "C:\\NinthQuartCode\\CSC370---Process-Modeling\\ServerUtilization\\ServerUtilization\\ServerUtilization.csproj",
+      "packagesPath": "C:\\Users\\waffl\\.nuget\\packages\\",
+      "outputPath": "C:\\NinthQuartCode\\CSC370---Process-Modeling\\ServerUtilization\\ServerUtilization\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\WaffleDefender\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\waffl\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
