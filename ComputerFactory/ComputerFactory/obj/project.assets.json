@@ -664,7 +664,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\waffl\\.nuget\\packages\\": {},
+    "C:\\Users\\WaffleDefender\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -673,17 +673,17 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\NinthQuartCode\\CSC370---Process-Modeling\\ComputerFactory\\ComputerFactory\\ComputerFactory.csproj",
+      "projectUniqueName": "C:\\NinthQuartCode\\CSC370 - Process Modeling\\ComputerFactory\\ComputerFactory\\ComputerFactory.csproj",
       "projectName": "ComputerFactory",
-      "projectPath": "C:\\NinthQuartCode\\CSC370---Process-Modeling\\ComputerFactory\\ComputerFactory\\ComputerFactory.csproj",
-      "packagesPath": "C:\\Users\\waffl\\.nuget\\packages\\",
-      "outputPath": "C:\\NinthQuartCode\\CSC370---Process-Modeling\\ComputerFactory\\ComputerFactory\\obj\\",
+      "projectPath": "C:\\NinthQuartCode\\CSC370 - Process Modeling\\ComputerFactory\\ComputerFactory\\ComputerFactory.csproj",
+      "packagesPath": "C:\\Users\\WaffleDefender\\.nuget\\packages\\",
+      "outputPath": "C:\\NinthQuartCode\\CSC370 - Process Modeling\\ComputerFactory\\ComputerFactory\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\waffl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\WaffleDefender\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

@@ -26,9 +26,9 @@ namespace ComputerFactory
 
         public List<Computer> ComputersFinished = new List<Computer>();
 
-        private const int MotherboardWorkers = 6;
-        private const int ProcessorWorkers = 3;
-        private const int HardDriveWorkers = 2;
+        private const int MotherboardWorkers = 5;
+        private const int ProcessorWorkers = 2;
+        private const int HardDriveWorkers = 1;
         private const int RAMWorkers = 2;
 
         private static double MotherboardLastEntry = 0;

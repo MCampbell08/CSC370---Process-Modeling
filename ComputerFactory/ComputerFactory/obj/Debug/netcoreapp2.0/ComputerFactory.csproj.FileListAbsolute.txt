@@ -9,3 +9,14 @@ C:\NinthQuartCode\CSC370---Process-Modeling\ComputerFactory\ComputerFactory\obj\
 C:\NinthQuartCode\CSC370---Process-Modeling\ComputerFactory\ComputerFactory\obj\Debug\netcoreapp2.0\ComputerFactory.AssemblyInfo.cs
 C:\NinthQuartCode\CSC370---Process-Modeling\ComputerFactory\ComputerFactory\obj\Debug\netcoreapp2.0\ComputerFactory.dll
 C:\NinthQuartCode\CSC370---Process-Modeling\ComputerFactory\ComputerFactory\obj\Debug\netcoreapp2.0\ComputerFactory.pdb
+C:\NinthQuartCode\CSC370 - Process Modeling\ComputerFactory\ComputerFactory\bin\Debug\netcoreapp2.0\ComputerFactory.deps.json
+C:\NinthQuartCode\CSC370 - Process Modeling\ComputerFactory\ComputerFactory\bin\Debug\netcoreapp2.0\ComputerFactory.runtimeconfig.json
+C:\NinthQuartCode\CSC370 - Process Modeling\ComputerFactory\ComputerFactory\bin\Debug\netcoreapp2.0\ComputerFactory.runtimeconfig.dev.json
+C:\NinthQuartCode\CSC370 - Process Modeling\ComputerFactory\ComputerFactory\bin\Debug\netcoreapp2.0\ComputerFactory.dll
+C:\NinthQuartCode\CSC370 - Process Modeling\ComputerFactory\ComputerFactory\bin\Debug\netcoreapp2.0\ComputerFactory.pdb
+C:\NinthQuartCode\CSC370 - Process Modeling\ComputerFactory\ComputerFactory\obj\Debug\netcoreapp2.0\ComputerFactory.csprojResolveAssemblyReference.cache
+C:\NinthQuartCode\CSC370 - Process Modeling\ComputerFactory\ComputerFactory\obj\Debug\netcoreapp2.0\ComputerFactory.csproj.CoreCompileInputs.cache
+C:\NinthQuartCode\CSC370 - Process Modeling\ComputerFactory\ComputerFactory\obj\Debug\netcoreapp2.0\ComputerFactory.AssemblyInfoInputs.cache
+C:\NinthQuartCode\CSC370 - Process Modeling\ComputerFactory\ComputerFactory\obj\Debug\netcoreapp2.0\ComputerFactory.AssemblyInfo.cs
+C:\NinthQuartCode\CSC370 - Process Modeling\ComputerFactory\ComputerFactory\obj\Debug\netcoreapp2.0\ComputerFactory.dll
+C:\NinthQuartCode\CSC370 - Process Modeling\ComputerFactory\ComputerFactory\obj\Debug\netcoreapp2.0\ComputerFactory.pdb
